@@ -1,0 +1,107 @@
+.svelteui-AccordionItem-panel {
+    background-color: #f6f6f6;
+}
+
+.svelteui-Card-root {
+    margin: 15px;
+    box-shadow: -5px -5px 20px lightgrey;
+    padding: 10px;
+}
+
+.svelteui-AccordionItem-root > button {
+    background: #e8f2ff;
+}
+
+.svelteui-Card-root > span > button {
+    float: right;
+}
+
+.svelteui-Radio-root {
+    margin: 10px 2px;
+}
+
+
+@media only screen and (min-width: 800px) {
+
+
+.flexLeft {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    margin: 10px;
+    width: 32%;
+}
+
+
+.flexRight {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin: 10px;
+    width: 32%;
+}
+
+.center {
+    max-width: 33%;
+    margin: 0 auto;
+}
+
+.flexIcon {
+    display: none;
+}
+
+}
+
+
+@media only screen and (max-width: 800px) {
+
+
+
+    .flexLeft {
+        z-index: 10;
+        position: fixed;
+        max-height: 95dvh;
+        overflow: auto;
+        left: 0;
+        bottom: 0;
+        margin: 0;
+        bottom: 0;
+        width: max-content;
+        background: #3a8efa45;
+        padding: 20px 10px;
+        border-radius: 0px 20px 20px 0px;
+    }
+    
+    .flexRight {
+        z-index: 10;
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        margin: 0;
+        width: max-content;
+        background: #3a8efa45;
+        padding: 20px 10px;
+        border-radius: 20px 00px 0px 20px;
+    }
+    
+    .center {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .flexIcon {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .flexRight .flexIcon {
+        float: right;
+    }
+    
+    }
+
+    div#fsw-btn {
+        width: 20px!important;
+        height: 20px!important;
+    }

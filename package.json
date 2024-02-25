@@ -1,0 +1,45 @@
+{
+	"name": "nextcloud-mediatheek-dashboard",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch",
+		"lint": "prettier --check . && eslint .",
+		"format": "prettier --write ."
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-node": "^3.0.0",
+		"@sveltejs/kit": "^2.0.0",
+		"@sveltejs/vite-plugin-svelte": "^3.0.0",
+		"eslint": "^8.28.0",
+		"eslint-config-prettier": "^9.0.0",
+		"eslint-plugin-svelte": "^2.30.0",
+		"prettier": "^3.0.0",
+		"prettier-plugin-svelte": "^3.0.0",
+		"svelte": "^4.2.7",
+		"svelte-check": "^3.6.0",
+		"typescript": "^5.0.0",
+		"vite": "^5.0.0"
+	},
+	"type": "module",
+	"dependencies": {
+		"@svelteuidev/composables": "^0.15.3",
+		"@svelteuidev/core": "^0.15.3",
+		"@svelteuidev/dates": "^0.15.3",
+		"@svelteuidev/motion": "^0.15.3",
+		"@svelteuidev/preprocessors": "^0.15.3",
+		"axios": "^1.6.2",
+		"dayjs": "^1.11.10",
+		"dotenv": "^16.4.4",
+		"marked": "^11.1.1",
+		"radix-icons-svelte": "^1.2.1",
+		"simple-oauth2": "^5.0.0",
+		"simple-svelte-autocomplete": "^2.5.2",
+		"tsdav": "^2.0.7",
+		"xml2js": "^0.6.2"
+	}
+}
